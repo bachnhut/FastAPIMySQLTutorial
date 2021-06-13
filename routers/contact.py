@@ -7,7 +7,6 @@ from fastapi.templating import Jinja2Templates
 from models.contact import create_contact, get_contact, list_contacts, delete_contact
 from pydantic import BaseModel
 from pydantic.utils import GetterDict
-import base64
 
 router_contacts = APIRouter(
     prefix="/contacts",
